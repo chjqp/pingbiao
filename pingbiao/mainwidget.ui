@@ -66,7 +66,7 @@ background-color: rgb(255, 255, 255);</string>
      <x>306</x>
      <y>117</y>
      <width>1134</width>
-     <height>80</height>
+     <height>331</height>
     </rect>
    </property>
   </widget>
@@ -82,6 +82,23 @@ background-color: rgb(255, 255, 255);</string>
      <height>1043</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+border-color: rgb(228, 228, 228);</string>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>20</y>
+      <width>69</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QWidget" name="widget_6" native="true">
    <property name="geometry">

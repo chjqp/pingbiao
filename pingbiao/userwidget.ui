@@ -21,7 +21,7 @@
    <string>Form</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color: rgb(255, 255, 255);</string>
+   <string notr="true"/>
   </property>
   <widget class="QLabel" name="avatarlb">
    <property name="geometry">
@@ -51,7 +51,7 @@ border-radius: 28px;</string>
    </property>
    <property name="font">
     <font>
-     <family>Sans Serif Collection</family>
+     <family>宋体</family>
      <pointsize>10</pointsize>
      <bold>true</bold>
     </font>
@@ -68,6 +68,12 @@ border-radius: 28px;</string>
      <width>69</width>
      <height>17</height>
     </rect>
+   </property>
+   <property name="sizeIncrement">
+    <size>
+     <width>0</width>
+     <height>20</height>
+    </size>
    </property>
    <property name="palette">
     <palette>
@@ -180,8 +186,8 @@ border-radius: 28px;</string>
    </property>
    <property name="font">
     <font>
-     <family>Sans Serif Collection</family>
-     <pointsize>6</pointsize>
+     <family>宋体</family>
+     <pointsize>10</pointsize>
      <bold>false</bold>
     </font>
    </property>
