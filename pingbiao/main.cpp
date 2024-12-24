@@ -2,6 +2,7 @@
 
 #include <QApplication>
 #include "mainwidget.h"
+#include "userwidget.h"
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
@@ -9,5 +10,7 @@ int main(int argc, char *argv[])
     // w.show();
     MainWidget m;
     m.show();
+    UserWidget u;
+    u.show();
     return a.exec();
 }
